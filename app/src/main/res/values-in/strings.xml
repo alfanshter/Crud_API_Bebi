@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerai Shop Indonesian Country</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="kolom_kosong">isikan semua kolom</string>
+    <string name="title_activity_admin">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_additem">tambah barang</string>
+    <string name="title_laporanjual">laporan</string>
+    <string name="profil">Profil</string>
+
+    <string name="passwor_salah">username dan password salah</string>
+
+    <string name="kode_barang">kode barang</string>
+    <string name="nama_barang">nama barang</string>
+    <string name="harga_barang">harga barang</string>
+    <string name="jumlah_barang">jumlah barang</string>
+    <string name="insert_barang">Tambah Barang</string>
+    <string name="list_barang">Daftar barang</string>
+    <string name="discount">Diskon</string>
+
+    <string name="edit">Edit</string>
+    <string name="hapus">Hapus</string>
+    <string name="barang_tidakada">Barang tidak ada</string>
+    <string name="title_activity_customer">Halaman Customer</string>
+    <string name="history">Riwayat</string>
+    <string name="proses">Proses</string>
+    <string name="total">Harga total</string>
+    <string name="jumlah_beli">Jumlah beli</string>
+    <string name="riwayat_transaksi">Riwayat transaksi</string>
+    <string name="waktu">Waktu</string>
+    <string name="item_limit">Barang melebihi batas</string>
+
+    <string name="nama">Nama : Bebi Oktaviani</string>
+    <string name="kelas">Kelas : TIF-4A</string>
+    <string name="Nim">NIM : 11950125019</string>
+    <string name="ganti_bahasa">Ganti bahasa</string>
+
+    <string name="welcome">Selamat datang, food country Indonesia, silahkan masuk !!</string>
+    <string name="loading">Tunggu ...</string>
+    <string name="username">Username</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="confirmpassword">Ulangi Password</string>
+    <string name="address">Alamat</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="networkerror">Jaringan Bermasalah</string>
+    <string name="register">Daftar</string>
+    <string name="about">Tentang</string>
+    <string name="item_sell">Harga Jual</string>
+    <string name="entry">Entry by</string>
+
+
+</resources>

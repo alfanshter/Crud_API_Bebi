@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Gerai Shop Indonesian Country</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="kolom_kosong">enter all fields</string>
+    <string name="title_activity_admin">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_additem">add item</string>
+    <string name="title_laporanjual">report</string>
+    <string name="profil">Profile</string>
+
+    <string name="passwor_salah">Wrong password or username</string>
+
+    <string name="kode_barang">item code</string>
+    <string name="nama_barang">item name</string>
+    <string name="harga_barang">item price</string>
+    <string name="jumlah_barang">number of items</string>
+    <string name="insert_barang">Insert item</string>
+    <string name="list_barang">List item</string>
+    <string name="discount">Discount</string>
+
+    <string name="edit">Edit</string>
+    <string name="hapus">Delete</string>
+    <string name="barang_tidakada">Item not found</string>
+    <string name="title_activity_customer">CustomerActiity</string>
+    <string name="history">History</string>
+    <string name="proses">Process</string>
+    <string name="total">Total price</string>
+    <string name="jumlah_beli">Purchase amount</string>
+    <string name="riwayat_transaksi">transaction history</string>
+    <string name="waktu">Time</string>
+    <string name="item_limit">Item over limit</string>
+
+    <string name="nama">Name : Bebi Oktaviani</string>
+    <string name="kelas">Class : TIF-4A</string>
+    <string name="Nim">NIM : 11950125019</string>
+
+    <string name="ganti_bahasa">Change language</string>
+
+    <string name="welcome">Welcome, Indonesia food country, please entry!!</string>
+    <string name="loading">loading ...</string>
+    <string name="username">Username</string>
+    <string name="fullname">Fullname</string>
+    <string name="email">Email</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+    <string name="networkerror">Network Error</string>
+    <string name="register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="about">About</string>
+    <string name="item_sell">Selling price</string>
+    <string name="entry">Entry by</string>
+
+
+</resources>

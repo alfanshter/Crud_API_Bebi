@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+            <import type="android.view.View"/>
+        <variable
+            name="login"
+            type="com.bebi.bebi_uas.auth.LoginActivity" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".auth.LoginActivity"
+        android:background="@drawable/bglogin">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/card"
+            app:cardBackgroundColor="#FFF1F0"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFF"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:text="@string/welcome"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="18dp"
+                    android:textColor="@color/colordongker"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_input"
+                    android:hint="@string/username"
+                    android:textSize="12sp"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:fontFamily="fon"
+                    android:paddingBottom="15dp"
+                    android:maxLines="1"
+                    android:textColorHint="@color/colordongker"
+                    android:textColor="@color/colordongker"
+                    android:inputType="textEmailAddress"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:background="@android:color/transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/etPasswordLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/pass"
+                        android:hint="@string/password"
+                        android:textSize="12sp"
+                        android:paddingLeft="17dp"
+                        android:textColorHint="@color/colordongker"
+                        android:paddingTop="15dp"
+                        android:maxLines="1"
+                        android:inputType="textPassword"
+                        android:paddingBottom="15dp"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/merah"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginTop="40dp"
+                    android:id="@+id/btn_login"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/login"
+                    android:fontFamily="@font/alef_bold"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/merah"
+                    android:layout_gravity="center|bottom"
+                    android:id="@+id/btn_register"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/register"
+                    android:fontFamily="@font/alef_bold"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ganti_bahasa"
+            android:id="@+id/change_bahasa"
+            android:backgroundTint="@color/merah"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+</layout>

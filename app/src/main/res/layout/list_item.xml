@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginEnd="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/aldrich_regular"
+        android:text="@string/nama_barang"
+        android:id="@+id/txt_namabarang"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:textColor="@color/black"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich_regular"
+        android:text="@string/harga_barang"
+        android:id="@+id/txt_hargabarang"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich_regular"
+        android:text="@string/item_sell"
+        android:id="@+id/txt_hargajual"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich_regular"
+        android:textColor="@color/black"
+
+        android:text="@string/jumlah_barang"
+        android:id="@+id/txt_jumlahbarang"
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+
+        android:fontFamily="@font/aldrich_regular"
+        android:text="@string/entry"
+        android:id="@+id/txt_entry"
+        />
+</LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="about"
+            type="com.bebi.bebi_uas.ui.about.AboutFragment" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.about.AboutFragment">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:id="@+id/judul"
+            android:textSize="24dp"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/ln1"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich_regular"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/txt_username"
+                android:textColor="@color/black"
+                android:text="@string/username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/aldrich_regular"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/text_namalengkap"
+                android:textColor="@color/black"
+                android:text="@string/fullname" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/aldrich_regular"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/txt_email"
+                android:textColor="@color/black"
+                android:text="@string/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/aldrich_regular"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/txt_alamat"
+                android:textColor="@color/black"
+                android:text="@string/address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/aldrich_regular"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/txt_jeniskelamin"
+                android:textColor="@color/black"
+                android:text="@string/gender" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_logout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/version" />
+
+            <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:backgroundTint="@color/merah"
+            android:text="LOGOUT"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/ln1"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</layout>

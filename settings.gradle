@@ -1,0 +1,2 @@
+rootProject.name = "bebi_uas"
+include ':app'
